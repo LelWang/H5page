@@ -55,12 +55,11 @@ body{
 .btn_activity {
 	display: block;
 	width: 30%;
-	height: 8%;
+	height: 10%;
 	line-height: 3;
 	text-align: center;
 	top: 55%;
 	left: 20%;
-	background-color: #000;
 }
 .from_box{
 	width:100%;
