@@ -56,10 +56,13 @@ body{
 	display: block;
 	width: 30%;
 	height: 8%;
-	background: #000;
-	color: #fff;
 	line-height: 3;
 	text-align: center;
-	top: 46%;
+	top: 55%;
 	left: 20%;
+	background-color: #000;
+}
+.from_box{
+	width:100%;
+	height:100%;
 }
