@@ -17,7 +17,9 @@ window.onload = function() {
 				$(".sex0l img").first().show();
 				$(".sex0l img").last().hide();
 			})
-			$(".submit-btn").click(function() {
+			$(".submit-btn").click(function(e) {
+				var e=e||window.event;
+				e.preventDefault();
 				$("body").load("clipBoard.html .CB_box", function() {
 
 							var clipboard = new Clipboard('.copy_btn');
