@@ -95,7 +95,7 @@ body {
 	height: 100%;
 	font-family: Xy;
 }
-.from_box img{
+.from_box>img{
 	position: absolute;
 	top: 0;
 	left: 0;
