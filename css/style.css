@@ -120,7 +120,7 @@ body {
 .form {
 	position: absolute;
 	width: 250px;
-	height: 260px;
+	height: 230px;
 	top: 37%;
 	left: 50%;
 	margin-left: -145px;
@@ -223,7 +223,7 @@ body {
 }*/
 .bot_box{
 	width: 230px;
-	height:130px;
+	height:100px;
 	position: absolute;
 	top: 57%;
 	padding:20px;
