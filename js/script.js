@@ -5,6 +5,8 @@ window.onload = function() {
 	});
 	$(".btn_activity").click(function() {
 		$("body").load("inf.html .from_box", function() {
+			var pageH=$("body").height();
+			$(".fbg").css("height",pageH);
 			$(".sex0l").click(function() {
 				$(".sex0l img").first().hide();
 				$(".sex0l img").last().show();
@@ -21,6 +23,7 @@ window.onload = function() {
 				var e=e||window.event;
 				e.preventDefault();
 				$("body").load("clipBoard.html .CB_box", function() {
+					$(".Cbg").css("height",pageH);
 
 							var clipboard = new Clipboard('.copy_btn');
 
