@@ -11,9 +11,31 @@ body {
 	font-family: "微软雅黑";
 	font-size: 14px;
 }
+
 img {
 	width: 100%;
-	vertical-align:middle;
+}
+
+input {
+	outline: none;
+	list-style: none;
+	border: none;
+	background: none;
+}
+
+select,
+option {
+	outline: none;
+	list-style: none;
+	border: none;
+	background: none;
+}
+
+button {
+	outline: none;
+	list-style: none;
+	border: none;
+	background: none;
 }
 
 a {
@@ -35,9 +57,11 @@ li {
 .rot {
 	transform: rotate(90deg);
 }
-body{
-	background-color: #666;
+
+body {
+	background-color: #fff;
 }
+
 .swiper-container {
 	width: 100%;
 	height: 100%;
@@ -50,8 +74,15 @@ body{
 
 .swiper-slide {
 	overflow: hidden;
-	display: table-cell;
-	vertical-align: middle;
+}
+
+.swiper-slide img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
 }
 
 .btn_activity {
@@ -63,7 +94,166 @@ body{
 	top: 55%;
 	left: 20%;
 }
-.from_box{
-	width:100%;
-	height:100%;
+
+.from_box {
+	width: 100%;
+	height: 100%;
+	background: url(../img/bm.jpg) no-repeat center;
+	background-size: contain;
+	font-family: Xy;
+}
+
+@font-face {
+	font-family: Xy;
+	src: url("../Font/FZMWFont.ttf");
+}
+
+.form {
+	position: absolute;
+	width: 250px;
+	height: 260px;
+	top: 42%;
+	left: 50%;
+	margin-left: -125px;
+}
+
+.form .fi input {
+	height: 100%;
+	width: 135px;
+	margin-left: 115px;
+	font-family: Xy;
+	color: #ed67a4;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.form .fi input::-webkit-input-placeholder {
+	color: #3353a7;
+}
+
+.form-renshu #renshu {
+	font-family: Xy;
+	color: #ed67a4;
+	font-size: 18px;
+	text-align: center;
+	margin-left: 115px;
+	height: 100%;
+}
+
+.fi {
+	height: 30px;
+	margin-top: 10px;
+}
+
+.form-name {
+	background: url(../img/form_03.jpg) left no-repeat;
+	background-size: contain;
+}
+
+.form-name input {
+	letter-spacing: -2px;
+}
+
+.form-moblie {
+	background: url(../img/form_06.jpg) left no-repeat;
+	background-size: contain;
+}
+
+.form-renshu {
+	background: url(../img/form_08.jpg) left no-repeat;
+	background-size: contain;
+}
+
+.form-sex {
+	background: url(../img/form_10.jpg) left no-repeat;
+	background-size: contain;
+}
+
+.form .form-sex input {
+	display: none;
+}
+
+.form .form-sex label {
+	width: 45px;
+	height: 30px;
+	float: left;
+	margin-left: 5px;
+}
+
+.form .form-sex .sex1l {
+	margin-left: 125px;
+}
+
+.submit-btn {
+	width: 80px;
+	height: 40px;
+	border: none;
+	background: url(../img/form_20.jpg) no-repeat center;
+	background-size: contain;
+	margin-top: 50px;
+	margin-left: 50%;
+	position: relative;
+	left: -40px
+}
+
+.CB_box {
+	width: 100%;
+	height: 100%;
+	background: url(../img/lb.jpg) no-repeat center;
+	background-size: contain;
+	font-family: Xy;
+}
+
+.linki {
+	height: 25px;
+	width: 240px;
+	background: url(../img/l_07.jpg) no-repeat left;
+	background-size: contain;
+	margin: 0 auto;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	margin-left: -120px;
+}
+
+.linki input {
+	height: 24;
+	width: 140px;
+	margin-left: 81px;
+	float: left;
+	font-family: Xy;
+	color: #ed67a4;
+	font-size: 20px;
+	margin-top: 1px;
+	text-align: center;
+}
+
+.linki span {
+	display: inline-block;
+	height: 100%;
+	width: 15px;
+	background: url(../img/l_09.jpg) no-repeat left;
+	background-size: contain;
+	margin-left: -3px;
+}
+
+.copy_btn {
+	background: url(../img/l_14.jpg) no-repeat center;
+	background-size: contain;
+	position: absolute;
+	width: 90px;
+	height: 40px;
+	top: 70%;
+	left: 50%;
+	margin-left: -45px;
+}
+
+.toolTip {
+	width: 130px;
+	position: absolute;
+	z-index: 10;
+	top: 68%;
+	left: 50%;
+	margin-left: -65px;
+	display: none;
 }

@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
+<title>信息提交</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+	<div class="from_box">
+<form action="insert_data.php" method="post" class="form">
+	<div class="form-name fi">
+		<input type="text" name="name" placeholder="请输入您的姓名" required="required">
+	</div>
+	<div class="form-moblie fi">
+		<input type="number" name="moblie" placeholder="请填写手机号" required="required">
+	</div>
+	<div class="form-renshu fi">
+		<select name="renshu" id="renshu">
+			<option value="">无</option>
+			<option value="1">1人</option>
+			<option value="2">2人</option>
+		</select>
+	</div>
+	<div class="form-sex fi">
+		
+		<input class="sex1" name="sex" type="radio" id="sex1" value="1" checked>
+		<label for="sex1" class="sex1l">
+			<img src="img/form_12.jpg" alt="" style="display: none;"/>
+			<img src="img/sexh_12.jpg" alt="" />
+		</label>
+		<input class="sex0" type="radio" name="sex" id="sex0" value="0">
+		<label for="sex0" class="sex0l">
+			<img src="img/form_14.jpg" alt="" />
+			<img src="img/sexh_14.jpg" alt="" style="display: none;"/>
+		</label>
+	</div>
+	<input class="submit-btn" type="submit" value="">
+</form>
+</div>
+</body>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/script.js" type="text/javascript" charset="utf-8"></script>
+</html>
