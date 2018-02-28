@@ -103,7 +103,6 @@ body {
 	height: 100%;
 	font-family: Xy;
 	overflow: hidden;
-	background: #fff;
 }
 /*.fbg{
 	position: absolute;
@@ -125,6 +124,7 @@ body {
 	top: 38%;
 	left: 50%;
 	margin-left: -125px;
+	background: #fff;
 }
 
 .form .fi input {
