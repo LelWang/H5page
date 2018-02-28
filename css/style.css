@@ -77,12 +77,7 @@ body {
 }
 
 .swiper-slide img {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	margin: auto;
+	height:100%;
 }
 
 .btn_activity {
@@ -100,7 +95,14 @@ body {
 	height: 100%;
 	font-family: Xy;
 }
-
+.from_box img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
 @font-face {
 	font-family: Xy;
 	src: url("../Font/FZMWFont.ttf");
