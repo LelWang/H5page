@@ -121,7 +121,7 @@ body {
 	position: absolute;
 	width: 250px;
 	height: 230px;
-	top: 37%;
+	top: 35%;
 	left: 50%;
 	margin-left: -145px;
 	background: #fff;
@@ -201,7 +201,7 @@ body {
 	border: none;
 	background: url(../img/form_20.jpg) no-repeat center;
 	background-size: contain;
-	margin-top: 40px;
+	margin-top: 35px;
 	margin-left: 50%;
 	position: relative;
 	left: -45px
@@ -225,14 +225,14 @@ body {
 	width: 230px;
 	height:100px;
 	position: absolute;
-	top: 57%;
+	top: 56%;
 	padding:20px;
 	background:#fff;
 	left:50%;
 	margin-left:-135px;
 }
 .linki {
-	height: 23px;
+	height: 20px;
 	width: 230px;
 	background: url(../img/l_07.jpg) no-repeat left;
 	background-size: contain;
@@ -240,7 +240,7 @@ body {
 }
 
 .linki input {
-	height: 23;
+	height: 20px;
 	width: 130px;
 	margin-left: 81px;
 	float: left;
@@ -256,7 +256,7 @@ body {
 	width: 15px;
 	background: url(../img/l_09.jpg) no-repeat left;
 	background-size: contain;
-	margin-left: -3px;
+	margin-left: -1px;
 }
 
 .copy_btn {
@@ -265,7 +265,7 @@ body {
 	position: absolute;
 	width: 100px;
 	height: 40px;
-	top: 70px;
+	top: 75px;
 	left: 50%;
 	margin-left: -50px;
 }
@@ -274,7 +274,7 @@ body {
 	width: 130px;
 	position: absolute;
 	z-index: 10;
-	top: 60px;
+	top: 65px;
 	left: 50%;
 	margin-left: -65px;
 	display: none;
