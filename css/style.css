@@ -121,7 +121,7 @@ body {
 	position: absolute;
 	width: 250px;
 	height: 260px;
-	top: 40%;
+	top: 37%;
 	left: 50%;
 	margin-left: -145px;
 	background: #fff;
@@ -225,7 +225,7 @@ body {
 	width: 230px;
 	height:130px;
 	position: absolute;
-	top: 60%;
+	top: 57%;
 	padding:20px;
 	background:#fff;
 	left:50%;
@@ -265,7 +265,7 @@ body {
 	position: absolute;
 	width: 100px;
 	height: 40px;
-	top: 85px;
+	top: 75px;
 	left: 50%;
 	margin-left: -50px;
 }
@@ -274,7 +274,7 @@ body {
 	width: 130px;
 	position: absolute;
 	z-index: 10;
-	top: 80px;
+	top: 70px;
 	left: 50%;
 	margin-left: -65px;
 	display: none;
