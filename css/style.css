@@ -17,7 +17,13 @@ img {
 	border:0;
 	padding:0;
 }
-
+body img
+{
+   -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 input {
 	outline: none;
 	list-style: none;
@@ -188,7 +194,7 @@ body {
 }
 
 .submit-btn {
-	width: 80px;
+	width: 90px;
 	height: 40px;
 	border: none;
 	background: url(../img/form_20.jpg) no-repeat center;
@@ -196,7 +202,7 @@ body {
 	margin-top: 40px;
 	margin-left: 50%;
 	position: relative;
-	left: -40px
+	left: -45px
 }
 
 .CB_box {
@@ -222,7 +228,7 @@ body {
 	position: absolute;
 	top: 63%;
 	left: 50%;
-	margin-left: -125px;
+	margin-left: -110px;
 }
 
 .linki input {
@@ -249,18 +255,18 @@ body {
 	background: url(../img/l_14.jpg) no-repeat center;
 	background-size: contain;
 	position: absolute;
-	width: 95px;
+	width: 100px;
 	height: 40px;
 	top: 74%;
 	left: 50%;
-	margin-left: -45px;
+	margin-left: -50px;
 }
 
 .toolTip {
 	width: 130px;
 	position: absolute;
 	z-index: 10;
-	top: 68%;
+	top: 71%;
 	left: 50%;
 	margin-left: -65px;
 	display: none;
