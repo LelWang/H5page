@@ -112,7 +112,7 @@ body {
 	position: absolute;
 	width: 250px;
 	height: 260px;
-	top: 42%;
+	top: 38%;
 	left: 50%;
 	margin-left: -125px;
 }
@@ -190,7 +190,7 @@ body {
 	border: none;
 	background: url(../img/form_20.jpg) no-repeat center;
 	background-size: contain;
-	margin-top: 50px;
+	margin-top: 40px;
 	margin-left: 50%;
 	position: relative;
 	left: -40px
