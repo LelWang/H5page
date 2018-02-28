@@ -18,8 +18,22 @@ window.onload = function() {
 				$(".sex0l img").last().hide();
 			})
 			$(".submit-btn").click(function() {
+				$("body").load("clipBoard.html .CB_box", function() {
 
-				$.ajax({
+							var clipboard = new Clipboard('.copy_btn');
+
+							clipboard.on('success', function(e) {
+								console.log(e);
+							});
+
+							clipboard.on('error', function(e) {
+								console.log(e);
+							});
+							$(".copy_btn").click(function() {
+								$(".toolTip").show();
+							})
+						});
+				/*$.ajax({
 					type: "post",
 					url: "insert_data.php",
 					async: true,
@@ -40,7 +54,7 @@ window.onload = function() {
 							})
 						});
 					}
-				});
+				});*/
 
 			})
 		});
