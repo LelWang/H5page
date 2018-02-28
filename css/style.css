@@ -94,6 +94,7 @@ body {
 	width: 100%;
 	height: 100%;
 	font-family: Xy;
+	overflow: hidden;
 }
 .fbg{
 	position: absolute;
@@ -202,6 +203,7 @@ body {
 	background: url(../img/lb.jpg) no-repeat center;
 	background-size: contain;
 	font-family: Xy;
+	overflow: hidden;
 }
 .Cbg{
 	position: absolute;
@@ -212,26 +214,25 @@ body {
 	margin: auto;
 }
 .linki {
-	height: 25px;
-	width: 240px;
+	height: 23px;
+	width: 230px;
 	background: url(../img/l_07.jpg) no-repeat left;
 	background-size: contain;
 	margin: 0 auto;
 	position: absolute;
-	top: 60%;
+	top: 63%;
 	left: 50%;
-	margin-left: -120px;
+	margin-left: -125px;
 }
 
 .linki input {
-	height: 24;
-	width: 140px;
+	height: 23;
+	width: 130px;
 	margin-left: 81px;
 	float: left;
 	font-family: Xy;
 	color: #ed67a4;
-	font-size: 20px;
-	margin-top: 1px;
+	font-size: 18px;
 	text-align: center;
 }
 
@@ -248,9 +249,9 @@ body {
 	background: url(../img/l_14.jpg) no-repeat center;
 	background-size: contain;
 	position: absolute;
-	width: 90px;
+	width: 95px;
 	height: 40px;
-	top: 70%;
+	top: 74%;
 	left: 50%;
 	margin-left: -45px;
 }
