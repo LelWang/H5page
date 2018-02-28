@@ -92,7 +92,6 @@ body {
 	display: block;
 	width: 30%;
 	height: 10%;
-	line-height: 3;
 	text-align: center;
 	top: 55%;
 	left: 20%;
@@ -104,14 +103,6 @@ body {
 	font-family: Xy;
 	overflow: hidden;
 }
-/*.fbg{
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	margin: auto;
-}*/
 @font-face {
 	font-family: Xy;
 	src: url("../Font/FZMWFont.ttf");
@@ -213,14 +204,6 @@ body {
 	font-family: Xy;
 	overflow: hidden;
 }
-/*.Cbg{
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	margin: auto;
-}*/
 .bot_box{
 	width: 230px;
 	height:100px;
