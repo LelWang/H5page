@@ -102,6 +102,7 @@ body {
 	height: 100%;
 	font-family: Xy;
 	overflow: hidden;
+	position: relative;
 }
 @font-face {
 	font-family: Xy;
@@ -112,7 +113,7 @@ body {
 	position: absolute;
 	width: 250px;
 	height: 230px;
-	top: 35%;
+	top: 33%;
 	left: 50%;
 	margin-left: -145px;
 	background: #fff;
@@ -145,6 +146,7 @@ body {
 .fi {
 	height: 30px;
 	margin-top: 10px;
+	position: relative;
 }
 
 .form-name {
@@ -185,7 +187,21 @@ body {
 .form .form-sex .sex1l {
 	margin-left: 125px;
 }
-
+.textIn span{
+	display: block;
+	height:12px;
+	width:12px;
+	border-radius: 50%;
+	border: #ed67a4 1px solid;
+	font-size: 14px;
+	color:#ed67a4;
+	text-align: center;
+	line-height: 14px;
+	position: absolute;
+	top:8px;
+	right:5px;
+	display: none;
+}
 .submit-btn {
 	width: 90px;
 	height: 40px;
@@ -203,6 +219,7 @@ body {
 	height: 100%;
 	font-family: Xy;
 	overflow: hidden;
+	position: relative;
 }
 .bot_box{
 	width: 230px;
@@ -219,12 +236,12 @@ body {
 	width: 230px;
 	background: url(../img/l_07.jpg) no-repeat left;
 	background-size: contain;
-	margin-left:12px;
+	margin-left:7px;
 }
 
 .linki input {
 	height: 20px;
-	width: 136px;
+	width: 146px;
 	margin-left: 68px;
 	float: left;
 	font-family: Xy;
@@ -257,7 +274,7 @@ body {
 	width: 130px;
 	position: absolute;
 	z-index: 10;
-	top: 65px;
+	top: 60px;
 	left: 50%;
 	margin-left: -65px;
 	display: none;

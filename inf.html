@@ -11,11 +11,11 @@
 	<div class="from_box">
 		<img class="fbg" src="img/bm.jpg" onclick="return false" alt="" />
 <form action="insert_data.php" method="post" class="form">
-	<div class="form-name fi">
-		<input type="text" name="name" placeholder="请输入您的姓名" required="required">
+	<div class="form-name fi textIn">
+		<input type="text" name="name" id="name" placeholder="请输入您的姓名" required="required"><span>!</span>
 	</div>
-	<div class="form-moblie fi">
-		<input type="number" name="moblie" placeholder="请填写手机号" required="required">
+	<div class="form-moblie textIn fi">
+		<input type="number" name="moblie" id="moblie" placeholder="请填写手机号" required="required"><span>!</span>
 	</div>
 	<div class="form-renshu fi">
 		<select name="renshu" id="renshu">
@@ -26,12 +26,12 @@
 	</div>
 	<div class="form-sex fi">
 		
-		<input class="sex1" name="sex" type="radio" id="sex1" value="1" checked>
+		<input class="sex1 sex" name="sex" type="radio" value="1" id="sex1" checked="checked">
 		<label for="sex1" class="sex1l">
 			<img src="img/form_12.jpg" alt="" style="display: none;"/>
 			<img src="img/sexh_12.jpg" alt="" />
 		</label>
-		<input class="sex0" type="radio" name="sex" id="sex0" value="0">
+		<input class="sex0 sex" type="radio" name="sex" id="sex0"  value="0">
 		<label for="sex0" class="sex0l">
 			<img src="img/form_14.jpg" alt="" />
 			<img src="img/sexh_14.jpg" alt="" style="display: none;"/>

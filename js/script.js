@@ -22,26 +22,32 @@ window.onload = function() {
 			$(".submit-btn").click(function(e) {
 				var e=e||window.event;
 				e.preventDefault();
-				$("body").load("clipBoard.html .CB_box", function() {
-					$(".Cbg").css("height",pageH);
-
-							var clipboard = new Clipboard('.copy_btn');
-
-							clipboard.on('success', function(e) {
-								console.log(e);
-							});
-
-							clipboard.on('error', function(e) {
-								console.log(e);
-							});
-							$(".copy_btn").click(function() {
-								$(".toolTip").show();
+						if($("#name").val().length<2){
+							$(".form-name span").show();
+							$("#name").focus(function(){
+							$(".form-name span").hide();
 							})
-						});
-				/*$.ajax({
+						}else if($("#moblie").val().length<11){
+							$(".form-moblie span").show();
+							$("#moblie").focus(function(){
+							$(".form-moblie span").hide();
+							})
+						}else{
+							var name=$("#name").val();
+						var moblie=$("#moblie").val();
+						var renshu=$("#renshu").val();
+						var sex=$(".sex:checked").val();
+						
+				$.ajax({
 					type: "post",
 					url: "insert_data.php",
 					async: true,
+					data:{
+						"name":name,
+						"moblie":moblie,
+						"renshu":renshu,
+						"sex":sex
+					},
 					success: function() {
 						$("body").load("clipBoard.html .CB_box", function() {
 
@@ -59,7 +65,9 @@ window.onload = function() {
 							})
 						});
 					}
-				});*/
+				});
+						}
+						
 
 			})
 		});
