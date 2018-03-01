@@ -219,12 +219,12 @@ body {
 	width: 230px;
 	background: url(../img/l_07.jpg) no-repeat left;
 	background-size: contain;
-	margin-left:15px;
+	margin-left:12px;
 }
 
 .linki input {
 	height: 20px;
-	width: 130px;
+	width: 136px;
 	margin-left: 68px;
 	float: left;
 	font-family: Xy;
